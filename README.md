@@ -31,4 +31,3 @@ In this, we setup a guard relay, as it safe to get started with minimal risk. Se
 ``` 
 	# systemctl restart tor@default
 ```
-- 
