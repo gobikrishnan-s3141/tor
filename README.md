@@ -5,8 +5,8 @@
 Download Tor browser from https://www.torproject.org/download/
 
 **Tor circuit**
- - Tor User -> Guard Relay -> Middle Relay -> Exit Relay -> Destination (i.e example.com) /n
-using Bridge
+ - Tor User -> Guard Relay -> Middle Relay -> Exit Relay -> Destination (i.e example.com)
+***using Bridge***
  - Tor User -> Bridge Relay -> Middle Relay -> Exit Relay -> Destination (i.e example.com)
 
 In this, we setup a guard relay, as it safe to get started with minimal risk. Setting up a exit relay is generally unsafe as the IP address of the exit relay is exposed to the website and sometimes they might not be perfectly legal to visit. So, consult your ISP or local law enforcement or even the three letter glowies before proceeding (just kidding, be safe, as people might visit illegal or malicious site)
