@@ -13,14 +13,17 @@ In this, we setup a guard relay, as it safe to get started with minimal risk. Se
 
 ## setup instructions
 
-- Follow this [guide](https://community.torproject.org/relay/setup/) on the official tor website
-- For Ubuntu & Debian-based distros
+- Follow this [guide](https://community.torproject.org/relay/setup/) on the official tor website to setup tor relay on your distro of choice.
+- In roling-release distros, you might have latest versions of tor, but in stable releases, it would be a bit *out-of-date*.
+- For Ubuntu & Debian-based distros:
 ```
 	# apt update
 	# apt install tor
 ```
 
-*Sometimes, tor package in the Debian or Ubuntu repo might be old, so it is recommended to install a newer version for better security/ setup instructions for specific distros are [here](https://community.torproject.org/relay/setup/guard/)*
+*Sometimes, tor package in the Debian or Ubuntu repo might be old, so it is recommended to install a newer version for better security, by following this [guide](https://landchad.net/tor/)
+setup instructions for specific distros are [here](https://community.torproject.org/relay/setup/guard/)*
+
 -  Edit the torrc file with required info: port, contact (include a anonymous email that does not include your real name, e.g., mr_robot@protonmail.me) & a nickname (optional).
 
 ```
